@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
 function App() {
-  const [length, setLength] = useState(4);
+  const [length, setLength] = useState(5);
   const [numAllow, setNumAllow] = useState(false);
   const [speChar, setSpeChar] = useState(false);
   const [password, setPassword] = useState("");
